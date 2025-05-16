@@ -15,3 +15,8 @@ dependencies = [
     "sentence-transformers>=2.2.2",
     "transformers>=4.36.2",
 ]
+
+[dependency-groups]
+dev = [
+    "pre-commit>=4.2.0",
+]
